@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "3e8e1a3b2b6a5895",
+    "type": "split",
+    "children": [
+      {
+        "id": "84ae7bc1593b9733",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "625e7eced653329c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "专辑/重金属/旋律死亡金属/\"Silence of Northern Hell\".md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d03fb74666bf4bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "专辑/重金属/旋律死亡金属/\"The Redshift\" by Omnium Gatherum.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f6584e0293669f30",
+    "type": "split",
+    "children": [
+      {
+        "id": "65f0d0b92780d060",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f3298a386c28e6d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6a7f892385df0952",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dfed112fc5daa8ab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2e180b642efc73a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbe06722e6c0fde9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9272286976596b2b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "专辑/重金属/旋律死亡金属/\"The Redshift\" by Omnium Gatherum.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "53c1c556618018ca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "专辑/重金属/旋律死亡金属/\"The Redshift\" by Omnium Gatherum.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4530b4708f031f81",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "929fab6e117ea0d3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "专辑/重金属/旋律死亡金属/\"The Redshift\" by Omnium Gatherum.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0d03fb74666bf4bc",
+  "lastOpenFiles": [
+    "专辑/重金属/旋律死亡金属/assets/theRedshift.jpg",
+    "专辑/重金属/旋律死亡金属/assets/The_RedShift_Omnium_Gatherum.jpeg",
+    "专辑/重金属/黑金属/\"Pentagram\" by Gorgoroth.md",
+    "专辑/重金属/旋律死亡金属/\"The Redshift\" by Omnium Gatherum.md",
+    "专辑/重金属/旋律死亡金属/\"Silence of Northern Hell\".md",
+    "专辑/重金属/旋律死亡金属/assets/The_RedShift-Omnium_Gatherum.jpeg",
+    "专辑/重金属/旋律死亡金属/assets/\"The_RedShift\"Omnium_Gatherum.jpeg",
+    "专辑/重金属/旋律死亡金属/assets/Silence_of_Northern_Hell.jpeg",
+    "专辑/重金属/旋律死亡金属/assets/\"The RedShift\"Omnium_Gatherum.jpeg",
+    "assets/“The.md",
+    "assets",
+    "本站维护相关/本站从 Nolebase  集成 v1 迁移到 v2 啦！.md",
+    "本站维护相关"
+  ]
+}

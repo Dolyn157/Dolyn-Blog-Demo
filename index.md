@@ -2,7 +2,7 @@
 layout: home
 sidebar: false
 
-title: 地霊殿音楽収蔵館
+title: 朵琳的博客
 titleTemplate: 记录聆听，搜藏和畅想的地方
 
 hero:

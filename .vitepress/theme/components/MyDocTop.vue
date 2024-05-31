@@ -7,6 +7,7 @@ import {ref} from 'vue'
         <img src="./assets/bannerPi.png" class="bannerPic">
     </div>
 </template>
+
 <style> 
 .banner {
     z-index: 2;

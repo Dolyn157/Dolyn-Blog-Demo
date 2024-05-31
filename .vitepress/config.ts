@@ -174,9 +174,10 @@ export default defineConfig({
     },
     nav: [
       { text: '主页', link: '/' },
-      { text: '艺术评论', link: '/艺术评论/' },
+      { text: '博文', link: '/博文/' },
+      { text: '我的画册', link: '/我的画册/' },
       { text: '最近更新', link: '/toc' },
-      { text: '关于 Nólëbase', link: '/AboutNolebase'}
+      { text: '关于 Nólëbase', link: '/AboutNolebase'},
     ],
     sidebar,
   },
