@@ -1,13 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-
-interface Images {
-    imageSrc: string
-    imageName: string
-    isCorped: boolean
-    corpedImageSrc: string
-    articleLink: string
-}
+import albumMetadata from '../../../我的画册/myWorks/albumMetadata.json'
 
 // get all images route from the Local storage
 const objects = import.meta.glob('../../../我的画册/myWorks/images/*.jpg', {

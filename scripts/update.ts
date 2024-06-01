@@ -28,6 +28,7 @@ const git = Git(DIR_ROOT)
  * @param options.ignore 忽略
  * @returns 符合 glob 的文件列表
  */
+// 型参表中变量名后的问号表示可选参数
 export async function listPages(dir: string, options: { target?: string, ignore?: string[] }) {
   const {
     target = '',

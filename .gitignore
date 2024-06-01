@@ -47,3 +47,5 @@ components.d.ts
 # Logs
 
 *.log
+
+# Obsidian files

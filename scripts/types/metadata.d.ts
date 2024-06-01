@@ -38,3 +38,4 @@ export interface DocsTagsAlias {
   name: string
   alias: string[]
 }
+

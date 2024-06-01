@@ -13,6 +13,7 @@
     "docs:build": "pnpm run update && vitepress build",
     "docs:serve": "vitepress serve",
     "update": "tsx scripts/update.ts",
+    "albumUpdate": "tsx scripts/album.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
@@ -64,6 +65,7 @@
     "vue": "^3.4.27"
   },
   "dependencies": {
+    "image-size": "^1.1.1",
     "nolebase": "link:"
   }
 }
