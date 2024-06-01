@@ -1,30 +1,30 @@
 [
   {
-    "imageSrc": "我的画册/myWorks/images/Marisa.jpg",
+    "imageSrc": "./我的画册/myWorks/images/Marisa.jpg",
     "imageName": "Marisa.jpg",
     "hasAlt": false,
     "altImageSrc": "",
     "articleLink": ""
   },
   {
-    "imageSrc": "我的画册/myWorks/images/Miku3.jpg",
+    "imageSrc": "./我的画册/myWorks/images/Miku3.jpg",
     "imageName": "Miku3.jpg",
     "hasAlt": false,
     "altImageSrc": "",
     "articleLink": ""
   },
   {
-    "imageSrc": "我的画册/myWorks/images/Neuro2.jpg",
+    "imageSrc": "./我的画册/myWorks/images/Neuro2.jpg",
     "imageName": "Neuro2.jpg",
     "hasAlt": false,
     "altImageSrc": "",
     "articleLink": ""
   },
   {
-    "imageSrc": "我的画册/myWorks/images/Urotsuki2.jpg",
+    "imageSrc": "./我的画册/myWorks/images/Urotsuki2.jpg",
     "imageName": "Urotsuki2.jpg",
     "hasAlt": true,
-    "altImageSrc": "我的画册/myWorks/altImg/Urotsuki2.jpg",
+    "altImageSrc": "./我的画册/myWorks/altImg/Urotsuki2.jpg",
     "articleLink": ""
   }
 ]

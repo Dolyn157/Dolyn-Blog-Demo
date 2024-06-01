@@ -1,27 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import albumMetadata from '../../../我的画册/myWorks/albumMetadata.json'
+import albumMetadata from '../../albumMetadata.json'
 
 // get all images route from the Local storage
-const objects = import.meta.glob('../../../我的画册/myWorks/images/*.jpg', {
-    query: '?url',
-    import: 'default',
-})  //获取图片的本地路径
+const objects = JSON.parse(JSON.stringify(albumMetadata)) //获取图片的本地路径
 
-const imagesSrc = ref<string[]>([]) // What is this "ref"?
+console.log(objects)
 
-for (const key in objects) {
-  objects[key]().then((res) => {
-    console.log(res)
-    imagesSrc.value.push(res)
-  })
-}   //创建存放图片路径的数组，并将图片路径push到数组中。
-
-function getImgSize(imgSrc, callback) {
-    
-}
-const newImg = new Image()
-newImg.src = imagesSrc.value[0]
 
 </script>   
 
@@ -29,9 +14,9 @@ newImg.src = imagesSrc.value[0]
     <div class = "albumcontainer">
         
     <img class = "image" 
-    v-for="(image, index) in imagesSrc"
+    v-for="(image, index) in objects"
     :key="index"
-    :src="image"
+    :src="image.imageSrc"
     alt="dynamic image"
     width="210"
     height="210"
