@@ -49,3 +49,4 @@ components.d.ts
 *.log
 
 # Obsidian files
+.obsidian/
