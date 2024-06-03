@@ -33,7 +33,7 @@ async function hasAltImg(images: Image[], altImageSrcs: string[]){
         for (var j = 0; j < images.length; j++){
           if (altImageSrcs[i].includes(images[j].imageName)){
             images[j].hasAlt = true
-            images[j].altImageSrc = `./${altImageSrcs[i]}`
+            images[j].altImageSrc = `/${altImageSrcs[i]}`
           }
         }
       }
@@ -43,7 +43,7 @@ async function run() {
   var Images: Image[] = []
   const imageSrcs = await listImgs(dir, target)
   for (let imageSrc of imageSrcs) {
-    imageSrc = `./${imageSrc}`
+    imageSrc = `/${imageSrc}`
     const imageName = imageSrc.split('/').pop()
     const hasAlt = false
     const altImageSrc = ''

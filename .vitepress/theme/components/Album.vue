@@ -7,13 +7,18 @@ const objects = JSON.parse(JSON.stringify(albumMetadata)) //获取图片的本�
 
 console.log(objects)
 
+for (let i = 0; i < objects.length; i++) {
+    if (objects[i].hasAlt === true) {
+    objects[i].imageSrc = objects[i].altImageSrc
+    } 
+}
 
 </script>   
 
 <template>
     <div class = "albumcontainer">
-        
-    <img class = "image" 
+    
+    <img class = "image" id = "image" 
     v-for="(image, index) in objects"
     :key="index"
     :src="image.imageSrc"
