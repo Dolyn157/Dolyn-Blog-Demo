@@ -1,30 +1,37 @@
 [
   {
-    "imageSrc": "./assets/images/Marisa.jpg",
+    "imageSrc": "/我的画册/assets/images/LowQualityIsTheFeature.jpg",
+    "imageName": "LowQualityIsTheFeature.jpg",
+    "hasAlt": false,
+    "altImageSrc": "",
+    "articleLink": ""
+  },
+  {
+    "imageSrc": "/我的画册/assets/images/Marisa.jpg",
     "imageName": "Marisa.jpg",
     "hasAlt": false,
     "altImageSrc": "",
     "articleLink": ""
   },
   {
-    "imageSrc": "./assets/images/Miku3.jpg",
+    "imageSrc": "/我的画册/assets/images/Miku3.jpg",
     "imageName": "Miku3.jpg",
     "hasAlt": false,
     "altImageSrc": "",
     "articleLink": ""
   },
   {
-    "imageSrc": "./assets/images/Neuro2.jpg",
+    "imageSrc": "/我的画册/assets/images/Neuro2.jpg",
     "imageName": "Neuro2.jpg",
     "hasAlt": false,
     "altImageSrc": "",
     "articleLink": ""
   },
   {
-    "imageSrc": "./assets/images/Urotsuki2.jpg",
+    "imageSrc": "/我的画册/assets/images/Urotsuki2.jpg",
     "imageName": "Urotsuki2.jpg",
     "hasAlt": true,
-    "altImageSrc": "./assets/altImg/Urotsuki2.jpg",
+    "altImageSrc": "/我的画册/assets/altImg/Urotsuki2.jpg",
     "articleLink": ""
   }
 ]

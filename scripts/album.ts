@@ -23,11 +23,11 @@ layout: page
 const css = `
 <style>
 
-  p {
+  .imgContainer {
     display: flex;
     justify-content: flex-start;
   }  
-  img {
+  .albumImg {
     display: flex;
     flex-wrap: wrap;
     margin: 7px;
@@ -63,7 +63,7 @@ async function hasAltImg(images: Image[], altImageSrcs: string[]){
         for (var j = 0; j < images.length; j++){
           if (altImageSrcs[i].includes(images[j].imageName)){
             images[j].hasAlt = true
-            images[j].altImageSrc = altImageSrcs[i].replace('我的画册', '.')
+            images[j].altImageSrc = `/${altImageSrcs[i]}`
           }
         }
       }
@@ -81,12 +81,24 @@ function makeImgMarkdownLink(images: Image[]){
     return imgMarkdownLink
 }
 
+ function makeImgHTMLPath(images: Image[]){
+    var imgHTMLPath = ``
+    for (var i = 0; i < images.length; i++){
+        if (images[i].hasAlt){
+          imgHTMLPath += `<img class="albumImg" src="${images[i].altImageSrc}" alt="${images[i].imageName}">\n`
+        }else{
+          imgHTMLPath += `<img class="albumImg" src="${images[i].imageSrc}" alt="${images[i].imageName}">\n`
+        }
+      }
+    return imgHTMLPath
+}
+
 async function run() {
   var Images: Image[] = []
   const imageSrcs = await listImgs(dir, target)
   for (let imageSrc of imageSrcs) {
-    imageSrc = imageSrc.replace('我的画册', '.')
-    const imageName = imageSrc.split('/').pop()
+    imageSrc = `/${imageSrc}`
+    const imageName = imageSrc.split('/').pop() as string
     const hasAlt = false
     const altImageSrc = ''
     const articleLink = ''
@@ -100,9 +112,9 @@ async function run() {
   console.log(`After\n`, Images)
   fs.writeJSON(join(DIR_VITEPRESS, 'albumMetadata.json'), Images, { spaces: 2 })
 
-  const imgMarkdownLinks = makeImgMarkdownLink(Images)
-  console.log(imgMarkdownLinks)
-  fs.writeFileSync(join(DIR_MYALBUM, 'index.md'), `${baseMarkdownContent}\n ${imgMarkdownLinks}\n${css}`, 'utf-8')
+  const imgHTMLPath = makeImgHTMLPath(Images)
+  console.log(imgHTMLPath)
+  fs.writeFileSync(join(DIR_MYALBUM, 'index.md'), `${baseMarkdownContent}\n<div class='imgContainer'>\n${imgHTMLPath}\n</div>\n${css}`, 'utf-8')
 }
 
 run().catch((err) => {
