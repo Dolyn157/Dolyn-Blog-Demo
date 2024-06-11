@@ -104,13 +104,12 @@ async function run() {
     const articleLink = ''
     Images.push({imageSrc, imageName, hasAlt, altImageSrc, articleLink})
   }
-  //console.log(Images)
 
   const altImageSrcs = await listImgs(dir, altTarget)
     console.log(altImageSrcs)
   await hasAltImg(Images, altImageSrcs)
-  console.log(`After\n`, Images)
-  fs.writeJSON(join(DIR_VITEPRESS, 'albumMetadata.json'), Images, { spaces: 2 })
+  
+  //fs.writeJSON(join(DIR_VITEPRESS, 'albumMetadata.json'), Images, { spaces: 2 })
 
   const imgHTMLPath = makeImgHTMLPath(Images)
   console.log(imgHTMLPath)

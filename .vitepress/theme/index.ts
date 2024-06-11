@@ -32,7 +32,6 @@ import {
 
 import { creators } from '../creators'
 
-import Album from './components/Album.vue'
 import AppContainer from './components/AppContainer.vue'
 import AboutNolebase from './components/AboutNolebase.vue'
 import DocFooter from './components/DocFooter.vue'
@@ -88,7 +87,6 @@ const ExtendedTheme: Theme = {
     app.component('DocFooter', DocFooter)
     app.component('Share', Share)
     app.component('TocList', TocList)
-    app.component('Album', Album)
     app.component('AppContainer', AppContainer)
     app.component('NolebaseUnlazyImg', NolebaseUnlazyImg)
     
