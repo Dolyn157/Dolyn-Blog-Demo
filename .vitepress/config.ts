@@ -201,7 +201,7 @@ export default defineConfig({
   },
   async buildEnd(siteConfig) {
     const newBuilder = buildEndGenerateOpenGraphImages({
-      baseUrl: 'https://orangeplanet.club',
+      baseUrl: 'https://blog.high-spirits.me',
       category: {
         byLevel: 2,
         fallbackWithFrontmatter: true,
